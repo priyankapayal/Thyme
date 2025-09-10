@@ -468,7 +468,7 @@ overflow: auto;
     }
 
     .reserve-form button:hover {
-      background: #7c5a2a;
+      background-color: #7c5a2a;
       text-decoration: underline;
     }
 
@@ -513,12 +513,20 @@ font-family: Arial, Helvetica, sans-serif;
       color: #333;
       padding: 15px 25px;
       border: none;
-      margin-left: 320px;
+      margin-left: 315px;
       margin-top: -40px;
       position: absolute;
       cursor: pointer;
+      font-weight: bold;
 
     }
+
+    .footer-left button:hover {
+      background: #78592b;
+      color: white;
+
+    }
+ 
  
 .last{
     position: absolute;
@@ -550,4 +558,23 @@ position: absolute;
 
 z-index: -1;
 
+}
+
+
+.team-box{
+  border: 3px solid white;
+  height: 40px;
+  width: 250px;
+margin-top: 280px;
+  margin-left: 1000px;
+  background-color: wheat;
+}
+
+.team-name{
+  color: rgba(139, 9, 9, 0.89);
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 15px;
+font-size: 20px;
+font-weight: bolder;
 }
