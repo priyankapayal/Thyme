@@ -561,20 +561,4 @@ z-index: -1;
 }
 
 
-.team-box{
-  border: 3px solid white;
-  height: 40px;
-  width: 250px;
-margin-top: 280px;
-  margin-left: 1000px;
-  background-color: wheat;
-}
 
-.team-name{
-  color: rgba(139, 9, 9, 0.89);
-  position: absolute;
-  margin-top: 1px;
-  margin-left: 15px;
-font-size: 20px;
-font-weight: bolder;
-}
